@@ -1,0 +1,90 @@
+/* DOCUMENT INFORMATION*/
+/*font-family: 'Ubuntu',
+sans-serif;*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER=======================================*/
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(./assets/images/background1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(./assets/images/background1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+header .container {
+  text-align: center;
+}
+
+header .container img {
+  width: 350px;
+  height: 350px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+header .container h1 {
+  color: whitesmoke;
+  font-size: 80px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header .container h3 {
+  color: whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+}
+
+header .container button {
+  background-color: #6d4317;
+  padding: 20px 50px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  border: none;
+  margin-top: 50px;
+  -webkit-transition: text-shadow 0.5s, background-color 0.5s;
+  transition: text-shadow 0.5s, background-color 0.5s;
+}
+
+header .container button:hover {
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+  background-color: #80501b;
+}
+
+/* PRESENTATION/AVIS====================*/
+.section-presentation-devis .container {
+  text-align: center;
+}
+
+.section-presentation-devis .container .bg-green {
+  background-color: #929992;
+}
+
+.section-presentation-devis .container .button-info {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.section-presentation-devis .container .button-info button {
+  background-color: #6d4317;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+
+.section-presentation-devis .container .button-info button i {
+  color: whitesmoke;
+}
+
+.section-presentation-devis .container .button-info button:hover {
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+  background-color: #80501b;
+}
+/*# sourceMappingURL=style.css.map */
